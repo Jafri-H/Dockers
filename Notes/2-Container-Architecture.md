@@ -4,7 +4,7 @@ A **Docker host** is a physical or virtual machine that runs the Docker Engine a
 
 ## 2. Container Client / Docker Client
 
-The **Docker client** (`docker` CLI) sends commands to the Docker daemon, which manages images and containers. The client can run on the host itself or connect to a remote Docker host.
+The **Docker client** (`docker` CLI) sends commands to the Docker daemon, which manages images and containers. The client can run on the host itself or connect to a remote Docker host. In simple words, Docker client is the command-line tool or visual interface we use to talk to Docker and give it instructions.
 
 - **Local connection:** Commonly uses the Unix socket `unix:///var/run/docker.sock` on Linux.
 - **Remote connection:** Can use SSH or a secured TCP connection. **Do not expose an unsecured Docker TCP socket.**
