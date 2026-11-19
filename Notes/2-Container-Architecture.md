@@ -18,7 +18,7 @@ The **Docker client** (`docker` CLI) sends commands to the Docker daemon, which 
 
 A **container image** is a read-only, layered package containing an application, its dependencies, and the filesystem content required to run it.
 
-**Images do not include a complete operating-system kernel.** Linux containers share the host's Linux kernel, although images may contain user-space tools and libraries from a Linux distribution.
+**Images do not include a complete operating-system kernel. Its a minor foot print of OS.** Linux containers share the host's Linux kernel, although images may contain user-space tools and libraries from a Linux distribution.
 
 ### Types of Images
 
