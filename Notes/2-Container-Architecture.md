@@ -40,7 +40,7 @@ A **container registry** stores and distributes container images in a centralize
 
 ## 5. Container
 
-A **container** is a runnable instance of an image. Multiple containers can be created from the **same image** and run simultaneously.
+A **container** is a runnable instance of an image. Multiple containers can be created from the **same image** and run at the same time.
 
 Containers typically have isolated processes, filesystem views, and networking. **A unique IP address, network interface, or user identity is not guaranteed for every container**; isolation depends on its configuration.
 
